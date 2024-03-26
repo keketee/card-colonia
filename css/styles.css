@@ -46,8 +46,6 @@ body {
   font-weight: 500;
   color: #6C7289;
   font-size: 12px;
-  
-  
 
 }
 .h2{
@@ -66,17 +64,26 @@ body {
   color: #6C7289;
 
 }
-.price::before{
+.price{
   content: attr(data-currency);
   font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
   font-size: 32px;
   font-weight: 700;
+  font-style: normal;
   color: #3D8168;
 
 }
-.title-icon{
+.button{
+  position: relative;
   background-color:#3D8168 ;
   text-align: center;
-  border: 295px 48px 295px 48px;
-
+  margin-inline: block;
+  left: 50px;
+  border-radius: 8px ;
+  color: white;
+  
+}
+.img-icon{
+  background-color: red;
 }
